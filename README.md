@@ -1,0 +1,2 @@
+# mvnPractice
+Maven Practice project

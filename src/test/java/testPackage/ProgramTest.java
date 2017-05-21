@@ -1,9 +1,12 @@
 package testPackage;
 
-public class ProgramTest {
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
-		System.out.println("Maven Test Project from Test Package");
+public class ProgramTest {
+	
+	@Test
+	public void prog1() {
+		System.out.println("Maven Test Project from Test Package - 1");
 
 	}
 
